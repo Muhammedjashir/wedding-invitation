@@ -4,6 +4,8 @@ import {
   Link,
   createRootRouteWithContext,
   useRouter,
+   HeadContent,
+  Scripts,
 } from "@tanstack/react-router";
 import { useEffect, type ReactNode } from "react";
 
@@ -72,11 +74,49 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
  
+    head: () => ({
+    meta: [
+      { charSet: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { title: "Lovable App" },
+      { name: "description", content: "A premium, mobile-first digital wedding invitation website showcasing couple photos and cinematic animations." },
+      { name: "author", content: "Lovable" },
+      { property: "og:title", content: "Lovable App" },
+      { property: "og:description", content: "A premium, mobile-first digital wedding invitation website showcasing couple photos and cinematic animations." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary" },
+      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Lovable App" },
+      { name: "twitter:description", content: "A premium, mobile-first digital wedding invitation website showcasing couple photos and cinematic animations." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7dd1f554-8eef-4df9-b0c2-dd63d8a705c9/id-preview-5b04eb31--57f55004-84f7-4ad5-a664-ac8e0136463f.lovable.app-1780304573011.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7dd1f554-8eef-4df9-b0c2-dd63d8a705c9/id-preview-5b04eb31--57f55004-84f7-4ad5-a664-ac8e0136463f.lovable.app-1780304573011.png" },
+    ],
+    links: [
+      {
+        rel: "stylesheet",
+        
+      },
+    ],
+  }),
+  shellComponent: RootShell,
   component: RootComponent,
   notFoundComponent: NotFoundComponent,
   errorComponent: ErrorComponent,
 });
 
+function RootShell({ children }: { children: ReactNode }) {
+  return (
+    <html lang="en">
+      <head>
+        <HeadContent />
+      </head>
+      <body>
+        {children}
+        <Scripts />
+      </body>
+    </html>
+  );
+}
 
 
 function RootComponent() {
