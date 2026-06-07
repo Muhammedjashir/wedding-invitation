@@ -18,13 +18,13 @@ import coverImg from "@/assets/cover.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Jusaila Nasar ❤️ Jabir T | Wedding Invitation" },
+      { title: "Jabir T ❤️ Jusaila Nasar | Wedding Invitation" },
       {
         name: "description",
         content:
           "Join us in celebrating our wedding on 03 September 2026. With love, from Jusaila & Jabir.",
       },
-      { property: "og:title", content: "Jusaila Nasar ❤️ Jabir T | Wedding Invitation" },
+      { property: "og:title", content: "Jabir T ❤️ Jusaila Nasar | Wedding Invitation" },
       {
         property: "og:description",
         content: "Join us in celebrating our wedding on 03 September 2026.",

@@ -48,7 +48,7 @@ export function Footer() {
       </div>
 
       <div className="mt-14 font-script text-3xl text-gold-gradient">
-        Jusaila &amp; Jabir
+        Jabir &amp; Jusaila
       </div>
       <p className="mt-2 font-display text-xs uppercase tracking-[0.4em] text-muted-foreground">
         03 · 09 · 2026

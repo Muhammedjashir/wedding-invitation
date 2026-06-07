@@ -11,12 +11,12 @@ import hero from "@/assets/heroimg.png";
 import cover from "@/assets/coverimg.png";
 
 const featured = [
-  { src: cover, alt: "Together" },
-  { src: g2, alt: "Promise" },
-  { src: hero, alt: "Hand in hand" },
+  // { src: cover, alt: "Together" },
+  // { src: g2, alt: "Promise" },
+  // { src: hero, alt: "Hand in hand" },
 ];
 
-const carousel = [g1, g3, g4, g5, g6, g8, g9, cover, g2, hero];
+const carousel = [g1, g3, g4, g5, g6, g8, g9, g2, ];
 
 export function Gallery() {
   return (

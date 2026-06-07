@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from "motion/react";
 import { useState } from "react";
-import cover from "@/assets/coverimg.png";
+import cover from "@/assets/g2.jpg";
 import { GoldParticles } from "./Particles";
 import { Ornament } from "./Ornament";
 
@@ -88,7 +88,7 @@ export function OpeningCover({ onOpen }: { onOpen: () => void }) {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.5, duration: 1.4 }}
           >
-            Jusaila
+            Jabir
           </motion.h1>
           <motion.span
             className="my-2 inline-block font-serif text-xl italic text-[var(--gold-soft)]"
@@ -104,7 +104,7 @@ export function OpeningCover({ onOpen }: { onOpen: () => void }) {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.7, duration: 1.4 }}
           >
-            Jabir
+            Jusaila
           </motion.h1>
 
           <Ornament className="mx-auto mt-8 h-5 w-56 opacity-90" />

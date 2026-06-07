@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import hero from "@/assets/heroimg.png";
+import hero from "@/assets/g2.jpg";
 import { Petals } from "./Particles";
 import { Ornament } from "./Ornament";
 
