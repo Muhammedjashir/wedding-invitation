@@ -25,11 +25,11 @@ export function Hero() {
           transition={{ duration: 1.2 }}
           className="glass-card rounded-3xl px-8 py-10"
         >
-          <p className="font-display text-xs uppercase tracking-[0.4em] text-gold">
+          <p className="font-display text-xs uppercase tracking-[0.4em]">
             The Beginning
           </p>
           <h2 className="mt-4 font-serif text-4xl italic text-foreground sm:text-5xl">
-            Our Forever <span className="text-gold-gradient">Begins</span>
+            Our Forever <span className="">Begins</span>
           </h2>
           <Ornament className="mx-auto mt-5 h-4 w-40" />
           <p className="mt-5 font-display text-base leading-relaxed text-muted-foreground sm:text-lg">

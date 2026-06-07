@@ -36,6 +36,26 @@ export const Route = createFileRoute("/")({
       { name: "twitter:image", content: coverImg },
       { name: "theme-color", content: "#D4AF37" },
     ],
+     authors: [{ name: "TEQNOCAPITAL" }],
+  openGraph: {
+    title: "TEQNOCAPITAL | Futuristic Creative & Tech Agency",
+    description:
+      "Building digital experiences that drive growth. Custom AI solutions, cinematic UX design, and enterprise-grade tech products.",
+    url: "https://teqnocapital.com",
+    siteName: "TEQNOCAPITAL",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "TEQNOCAPITAL | Futuristic Creative & Tech Agency",
+    description: "Building digital experiences that drive growth.",
+  },
+  icons: {
+    icon: "/assets/fav.PNG",
+    shortcut: "/assets/shortcut.PNG",
+    apple: "/assets/apple.PNG",
+  },
     links: [
       { rel: "canonical", href: "/" },
       {

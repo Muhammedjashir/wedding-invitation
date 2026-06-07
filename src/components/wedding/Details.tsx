@@ -2,8 +2,8 @@ import { motion } from "motion/react";
 import { Ornament } from "./Ornament";
 
 const items = [
-  { label: "Bride", value: "Jusaila Nasar D/O Nasar", script: true },
   { label: "Groom", value: "Jabir T S/O Usman Thettan", script: true },
+  { label: "Bride", value: "Jusaila Nasar D/O Nasar", script: true },
   { label: "Date", value: "03 September 2026" },
   { label: "Time", value: "After 5:00 PM" },
   { label: "Venue", value: "C A H auditorium 4th mile" },

@@ -91,6 +91,26 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7dd1f554-8eef-4df9-b0c2-dd63d8a705c9/id-preview-5b04eb31--57f55004-84f7-4ad5-a664-ac8e0136463f.lovable.app-1780304573011.png" },
       { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7dd1f554-8eef-4df9-b0c2-dd63d8a705c9/id-preview-5b04eb31--57f55004-84f7-4ad5-a664-ac8e0136463f.lovable.app-1780304573011.png" },
     ],
+     authors: [{ name: "TEQNOCAPITAL" }],
+  openGraph: {
+    title: "TEQNOCAPITAL | Futuristic Creative & Tech Agency",
+    description:
+      "Building digital experiences that drive growth. Custom AI solutions, cinematic UX design, and enterprise-grade tech products.",
+    url: "https://teqnocapital.com",
+    siteName: "TEQNOCAPITAL",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "TEQNOCAPITAL | Futuristic Creative & Tech Agency",
+    description: "Building digital experiences that drive growth.",
+  },
+  icons: {
+    icon: "/assets/fav.PNG",
+    shortcut: "/assets/shortcut.PNG",
+    apple: "/assets/apple.PNG",
+  },
     links: [
       {
         rel: "stylesheet",
